@@ -2,27 +2,27 @@
 =====================================================
 # IP External Ports
 =====================================================
-por_rgbg_order              = 0       # 0-->Even row = RGBG, 1-->Even row = BGRG
-por_dbv                       = 4000   # 14bit input(0 ~ 16383) 
-por_fcon                      = 3        # frequency 설정 변경
+por_rgbg_order            = 0       # 0-->Even row = RGBG, 1-->Even row = BGRG
+por_dbv                   = 4000   # 14bit input(0 ~ 16383) 
+por_fcon                  = 3        # frequency 설정 변경
 
 =====================================================
 # IP Internal Registers
 =====================================================
-reg_ctc_lctc_en              = 1
-reg_ctc_actc_en             = 1
+reg_ctc_lctc_en           = 1
+reg_ctc_actc_en           = 1
 reg_ctc_color_mode        = 0
 reg_ctc_dbv_gain_en       = 0
-reg_ctc_frq_gain_en        = 0
-reg_ctc_lctc_off_mask0     = 0
-reg_ctc_lctc_off_mask1     = 0
-reg_ctc_th_gray              = 32
-reg_ctc_th_delta_line_avg  = 48
-reg_ctc_th_sat                = 255          
-reg_ctc_lut_end_itp          = 1     
+reg_ctc_frq_gain_en       = 0
+reg_ctc_lctc_off_mask0    = 0
+reg_ctc_lctc_off_mask1    = 0
+reg_ctc_th_gray           = 32
+reg_ctc_th_delta_line_avg = 48
+reg_ctc_th_sat            = 255          
+reg_ctc_lut_end_itp       = 1     
 reg_ctc_delt_pxlv_mode    = 0  
 reg_ctc_delt_linev_mode   = 1 
-reg_ctc_lctc_interval_no    = 4
-reg_ctc_diff_gray            = 10        
+reg_ctc_lctc_interval_no  = 4
+reg_ctc_diff_gray         = 10        
    
 

@@ -1,6 +1,6 @@
 # BMP 파일 읽기 및 RGB/RGBG 배열 생성
 
-이 프로그램은 BMP 파일을 읽어서 RGB 배열과 RGBG 배열을 생성하고, csv 파일을 읽어 register table을 만들고 사용하는 IP Modeling 프로젝트의 reference입니다.
+이 프로그램은 BMP 파일을 읽어서 RGB 배열과 RGBG 배열을 생성합니다.
 
 ## 컴파일 방법
 
@@ -44,4 +44,3 @@ make
 
 - 24비트 BMP 파일만 지원합니다
 - 메모리는 사용 후 반드시 `free_rgb()`와 `free_rgbg()`로 해제해야 합니다
-
